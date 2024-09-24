@@ -12,7 +12,7 @@ def intro():
     st.write("User Manual For the App.")
     st.sidebar.success("Use the Drop Down Menu to Interact with the App.")
 
-def Admincontrol():
+def cntrl():
     import streamlit as st
     st.write("# Admin Login")
     st.write("Admin Logins to first initialise the attendence list for students,")
@@ -115,7 +115,7 @@ def data_frame_demo():
 
 page_names_to_funcs = {
     "Introduction": intro,
-    "Admin Control": Admincontrol,
+    "Admin Control": cntrl,
     "Student Dashboard": mapping_demo,
     "About": data_frame_demo
 }

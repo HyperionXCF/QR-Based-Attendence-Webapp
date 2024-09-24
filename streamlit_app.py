@@ -17,6 +17,7 @@ def intro():
 def cntrl():
     import streamlit as st
     st.write("### Admin Login")
+    st.sidebar.success("Administrator Login")
     st.write("Admin Logins to first initialise the attendence list for students,")
     st.write("Admin will upload the attendence name list, in excel format")
     st.write("the data will be scrapped by python libraries to make database out of it.")
@@ -24,10 +25,12 @@ def cntrl():
 
 def dashbrd():
     st.write("### Student Dashboard")
+    st.sidebar.success(" Find out if Your Attendence Percentage is > 75% ? ")
     st.write("this is student's dashboard, where they can see their attendence.")
 
 def bout():
     st.write("### About The Project")
+    st.sidebar.success("Find Information About the Creators...")
     st.write("this is the about page for the projects")
     st.write("and we are the faces behind this project.")
 

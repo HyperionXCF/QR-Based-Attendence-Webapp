@@ -12,7 +12,8 @@ df = pd.Dataframe({
 'second column':[10,20,30,40]
 })
 
-option = st.selectbox()
+df['first column']
+df['second column']
 
 
 

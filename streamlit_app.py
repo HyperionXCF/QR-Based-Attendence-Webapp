@@ -9,6 +9,9 @@ def intro():
     import streamlit as st
     st.write("User Manual For the App.")
     st.sidebar.success("Navigate on the Webapp using Drop Down Menu.")
+    st.write("This App leverages Computer Vision & Python Libraries.")
+    st.write("Made By - Team PyClub")
+
 
 def cntrl():
     import streamlit as st
@@ -36,7 +39,5 @@ page_names_to_funcs = {
 demo_name = st.sidebar.selectbox("# Menu", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()
 
-st.write("This App leverages Computer Vision & Python Libraries.")
-st.write("Made By - Team PyClub")
 
 

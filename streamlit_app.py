@@ -7,6 +7,7 @@ st.title("QR based Attendence Application")
 
 def intro():
     import streamlit as st
+    st.write("# Introduction")
     st.write("User Manual For the App.")
     st.sidebar.success("Navigate on the Webapp using Drop Down Menu.")
     st.write("This App leverages Computer Vision & Python Libraries.")
@@ -22,9 +23,11 @@ def cntrl():
     st.write("the database then can be use to initiate qr scanning process...")
 
 def dashbrd():
+    st.write("# Student Dashboard")
     st.write("this is student's dashboard, where they can see their attendence.")
 
 def bout():
+    st.write("# About The Project")
     st.write("this is the about page for the projects")
     st.write("and we are the faces behind this project.")
 

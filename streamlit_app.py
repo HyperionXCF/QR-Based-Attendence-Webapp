@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("QR based Attendence Application")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "This Project is completely made from scratch."
+    "This Project leverages Computer Vision to Scan the QR"
+    "and Some Python Dependencies to Process and Visualise the processed data."
 )

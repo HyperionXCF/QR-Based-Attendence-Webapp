@@ -17,7 +17,7 @@ def intro():
 def cntrl():
     import streamlit as st
     st.write("### Admin Login")
-    st.sidebar.success("Administrator Login")
+    st.sidebar.success("Login here to Upload Attendence Excel Sheet...")
     st.write("Admin Logins to first initialise the attendence list for students,")
     st.write("Admin will upload the attendence name list, in excel format")
     st.write("the data will be scrapped by python libraries to make database out of it.")

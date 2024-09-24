@@ -8,7 +8,7 @@ st.title("QR based Attendence Application")
 def intro():
     import streamlit as st
     st.write("User Manual For the App.")
-    st.sidebar.success("Use the Drop Down Menu to Interact with the App.")
+    st.sidebar.success("Drop Down Menu")
 
 def cntrl():
     import streamlit as st

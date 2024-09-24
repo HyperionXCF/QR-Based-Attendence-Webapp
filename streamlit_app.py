@@ -3,13 +3,13 @@ import pandas as pd
 import numpy as np 
 
 
-st.title("QR based Attendence Application")
+st.title("# QR based Attendence Application")
 st.write("This App leverages Computer Vision & Python Libraries.")
 st.write("Made By - Team PyClub")
 
 def intro():
     import streamlit as st
-    st.write("# User Manual For the App.")
+    st.write("User Manual For the App.")
     st.sidebar.success("Use the Drop Down Menu to Interact with the App.")
 
     st.markdown(

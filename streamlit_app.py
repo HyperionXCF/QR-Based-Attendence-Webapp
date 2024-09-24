@@ -33,7 +33,7 @@ page_names_to_funcs = {
     "About": bout
 }
 
-demo_name = st.sidebar.selectbox("Choose a demo", page_names_to_funcs.keys())
+demo_name = st.sidebar.selectbox("Menu", page_names_to_funcs.keys())
 page_names_to_funcs[demo_name]()
 
 st.write("This App leverages Computer Vision & Python Libraries.")

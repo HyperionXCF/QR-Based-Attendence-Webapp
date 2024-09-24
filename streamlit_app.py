@@ -4,14 +4,13 @@ import numpy as np
 
 
 st.title("QR based Attendence Application")
-st.write("### This App leverages Computer Vision & Python Libraries.")
-st.write("### Made By - Team PyClub")
+st.write("This App leverages Computer Vision & Python Libraries.")
+st.write("Made By - Team PyClub")
 
 def intro():
     import streamlit as st
-
-    st.write("# Welcome to Streamlit! 👋")
-    st.sidebar.success("Select a demo above.")
+    st.write("# User Manual For the App.")
+    st.sidebar.success("Use the Drop Down Menu to Interact with the App.")
 
     st.markdown(
         """

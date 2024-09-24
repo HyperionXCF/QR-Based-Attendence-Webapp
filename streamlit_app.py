@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np 
 
 
-st.title("# QR based Attendence Application")
+st.title("QR based Attendence Application")
 st.write("This App leverages Computer Vision & Python Libraries.")
 st.write("Made By - Team PyClub")
 
@@ -11,29 +11,6 @@ def intro():
     import streamlit as st
     st.write("User Manual For the App.")
     st.sidebar.success("Use the Drop Down Menu to Interact with the App.")
-
-    st.markdown(
-        """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-
-        **👈 Select a demo from the dropdown on the left** to see some examples
-        of what Streamlit can do!
-
-        ### Want to learn more?
-
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
-        - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-
-        ### See more complex demos
-
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
-    """
-    )
 
 def mapping_demo():
     import streamlit as st

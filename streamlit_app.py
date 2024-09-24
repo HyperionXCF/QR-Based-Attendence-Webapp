@@ -7,14 +7,6 @@ st.title("QR based Attendence Application")
 st.write("This App leverages Computer Vision & Python Libraries.")
 st.write("Made By - Team PyClub")
 
-df = pd.Dataframe({
-  'first column': [1,2,3,4],
-'second column':[10,20,30,40]
-})
-
-df['first column']
-df['second column']
-
 
 
 
